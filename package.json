@@ -1,0 +1,36 @@
+{
+  "name": "rxjs-drag-en-drop",
+  "version": "1.0.0",
+  "author": "Michail Tsougkranis",
+  "description": "rxjs drag en drop",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "grunt buildDev && concurrently \"grunt watch\" \"lite-server -c config.json\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeNats/Rxjs-Drag-En-Drop.git"
+  },
+
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.2.0",
+    "browserify-istanbul": "^2.0.0",
+    "concurrently": "^3.1.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-css": "^0.5.4",
+    "grunt-eslint": "^18.1.0",
+    "grunt-minify-html": "^2.1.0",
+    "lite-server": "^2.2.2",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

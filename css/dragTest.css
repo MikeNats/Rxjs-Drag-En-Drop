@@ -1,0 +1,90 @@
+
+#dragTestArea{
+	clear:both;
+	float:left;
+	display: block;
+	width:100%;
+	padding:2%;
+	box-sizing: border-box;
+}     
+
+#dragTestArea ul{
+	display:block;
+	float:left;
+	width:100px;
+	padding: 20px;
+	background:#777; 
+}
+#dragTestArea ul li{
+   display:block;
+   float: left;
+}
+
+.droped{
+	width:96%;
+	box-sizing: content-box;
+	float:left;
+	margin:20px 0;
+	margin:2%;
+	min-height:100px;
+	border-radius: 3px;
+	background: #147DC2;
+	color:#eee;
+	text-align: center;
+}
+
+.dragInProgress{
+	box-shadow:1px 2px 1px 0.5px #000;
+}
+.sub.dropArea{
+	min-height: 20px;
+	border:2px solid #666;
+	margin:10px auto;
+	float: none;
+	background: #ddd;
+	color:#333;
+	text-align: center;
+}
+
+#dropArea {
+  	width:50%;
+	min-height:400px;
+	background-color: #333;
+	background-position: center center;
+	background-repeat: no-repeat;
+	float:right;
+	border:1px solid #666;
+	border-radius: 3px;
+}
+.draggable.animateDraggableReturn {
+	z-index: 99;
+	transition-timing-function: ease;
+	-moz-transition-timing-function: ease; /* Firefox 4 */
+	-webkit-transition-timing-function: ease; /* Safari and Chrome */
+	-o-transition-timing-function: ease; /* Opera */
+	transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s; /* Firefox 4 */
+	-webkit-transition-duration: 0.3s; /* Safari and Chrome */
+	-o-transition-duration: 0.3s; /* Opera */
+}
+
+.draggable {
+	float:left;
+	width:100px;
+	height:35px;
+	background: #ddd;
+	color:#333;
+	border:2px solid #666;
+	border-radius: 3px;
+	cursor: pointer;
+	z-index: 90;
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
